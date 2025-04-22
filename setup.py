@@ -5,6 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
+    py_modules=['loxs'],
     name="loxs",
     version="2.1",
     description="Multi Vulnerability Scanner for Web Applications (LFI, OR, SQLi, XSS, CRLF)",
